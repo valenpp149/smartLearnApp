@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">smartLearnApp</string>
+    <string name="nombreApp">Smart Learn</string>
+    <string name="inicio_sesion">Iniciar Sesión</string>
+    <string name="user">Usuario</string>
+    <string name="clave">Contraseña</string>
+    <string name="recuperar">¿Olvidó su contraseña?</string>
+    <string name="registro">¿No tiene cuenta?</string>
+    <string name="correo">correo@gmail.com</string>
+</resources>
