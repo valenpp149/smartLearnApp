@@ -7,4 +7,11 @@
     <string name="recuperar">¿Olvidó su contraseña?</string>
     <string name="registro">¿No tiene cuenta?</string>
     <string name="correo">correo@gmail.com</string>
+    <string name="registrar">Registrar Usuario</string>
+    <string name="registrar2">Registrar</string>
+    <string name="nombre">Nombre Completo</string>
+    <string name="correo2">Correo</string>
+    <string name="direccion">Dirección</string>
+    <string name="telefono">Número de teléfono</string>
+    <string name="identificación">Número de identificación</string>
 </resources>

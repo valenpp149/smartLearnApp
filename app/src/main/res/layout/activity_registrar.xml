@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <view
+        android:id="@+id/view3"
+        class="androidx.viewpager.widget.ViewPager"
+        android:layout_width="0dp"
+        android:layout_height="110dp"
+        android:background="@drawable/wave"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/registrar"
+        android:textColor="@color/primary_blue"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.479"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <EditText
+        android:id="@+id/nombree"
+        android:layout_width="319dp"
+        android:layout_height="53dp"
+        android:drawableStart="@drawable/user"
+        android:drawablePadding="15dp"
+        android:ems="10"
+        android:fontFamily="@font/roboto"
+        android:hint="@string/nombre"
+        android:inputType="textPersonName"
+        android:textColor="@color/secondary_blue"
+        android:textColorHint="@color/secondary_blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view3"
+        app:layout_constraintVertical_bias="0.224" />
+
+    <Button
+        android:id="@+id/registrar"
+        android:layout_width="158dp"
+        android:layout_height="52dp"
+        android:background="@drawable/boton_redondo"
+        android:fontFamily="@font/roboto"
+        android:text="@string/registrar2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.879" />
+
+    <EditText
+        android:id="@+id/correoo"
+        android:layout_width="320dp"
+        android:layout_height="52dp"
+        android:drawableStart="@drawable/ic_baseline_email_24"
+        android:drawablePadding="15dp"
+        android:ems="10"
+        android:fontFamily="@font/roboto"
+        android:hint="@string/correo2"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/secondary_blue"
+        android:textColorHint="@color/secondary_blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.432" />
+
+    <EditText
+        android:id="@+id/direccion"
+        android:layout_width="319dp"
+        android:layout_height="48dp"
+        android:drawableStart="@drawable/ic_baseline_location_on_24"
+        android:drawablePadding="15dp"
+        android:ems="10"
+        android:fontFamily="@font/roboto"
+        android:hint="@string/direccion"
+        android:inputType="textPersonName"
+        android:textColor="@color/secondary_blue"
+        android:textColorHint="@color/secondary_blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view3"
+        app:layout_constraintVertical_bias="0.532" />
+
+    <EditText
+        android:id="@+id/clavee"
+        android:layout_width="321dp"
+        android:layout_height="55dp"
+        android:drawableStart="@drawable/ic_baseline_password_24"
+        android:drawablePadding="15dp"
+        android:ems="10"
+        android:fontFamily="@font/roboto"
+        android:hint="@string/clave"
+        android:inputType="textPassword"
+        android:textColor="@color/secondary_blue"
+        android:textColorHint="@color/secondary_blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.732" />
+
+    <EditText
+        android:id="@+id/telefono"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:drawableStart="@drawable/ic_baseline_local_phone_24"
+        android:drawablePadding="15dp"
+        android:ems="10"
+        android:fontFamily="@font/roboto"
+        android:hint="@string/telefono"
+        android:inputType="phone"
+        android:textColor="@color/secondary_blue"
+        android:textColorHint="@color/secondary_blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.631" />
+
+    <EditText
+        android:id="@+id/identificacion"
+        android:layout_width="318dp"
+        android:layout_height="54dp"
+        android:drawableStart="@drawable/ic_baseline_numbers_24"
+        android:drawablePadding="15dp"
+        android:ems="10"
+        android:hint="@string/identificación"
+        android:inputType="number"
+        android:textColorHint="@color/secondary_blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.329" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
