@@ -2,6 +2,7 @@ package com.example.smartlearnapp.view.ui.activities
 
 import android.app.Activity
 import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -37,5 +38,6 @@ class registrarActivity : Activity(){
 
         editar.commit()
         Toast.makeText(this, "Usuario registrado exitosamente", Toast.LENGTH_LONG).show()
+        startActivity(Intent(this, LoginActivity::class.java))
     }
 }

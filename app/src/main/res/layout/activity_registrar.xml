@@ -151,6 +151,7 @@
         android:ems="10"
         android:hint="@string/identificación"
         android:inputType="number"
+        android:textColor="@color/secondary_blue"
         android:textColorHint="@color/secondary_blue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

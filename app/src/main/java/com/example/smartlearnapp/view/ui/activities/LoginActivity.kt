@@ -18,6 +18,7 @@ class LoginActivity : Activity() {
         setContentView(binding.root)
         binding.ingreso.setOnClickListener{validar()}
         binding.registro.setOnClickListener{irARegistro()}
+        binding.recuperar.setOnClickListener{recuperarCuenta()}
     }
     fun validar(){
         val correo: String = binding.email.text.toString()
@@ -45,5 +46,9 @@ class LoginActivity : Activity() {
 
     fun irARegistro(){
         startActivity(Intent(this, registrarActivity::class.java))
+    }
+
+    fun recuperarCuenta(){
+        Toast.makeText(this, "Contraseña enviada al correo", Toast.LENGTH_LONG).show()
     }
 }
