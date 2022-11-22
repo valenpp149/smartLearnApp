@@ -36,6 +36,7 @@ class LoginActivity : Activity() {
         }else if(correo==correo2){
             if(clave==clave2){
                 Toast.makeText(this, "Bienvenido", Toast.LENGTH_LONG).show()
+                startActivity(Intent(this, HomeActivity::class.java))
             }else{
                 Toast.makeText(this, "Contraseña incorrecta", Toast.LENGTH_LONG).show()
             }
