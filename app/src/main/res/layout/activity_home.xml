@@ -36,11 +36,12 @@
         android:id="@+id/fragmentContainerView"
         android:name="com.example.smartlearnapp.view.ui.activities.CursosFragment"
         android:layout_width="0dp"
-        android:layout_height="557dp"
+        android:layout_height="588dp"
         app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view4"
+        app:layout_constraintVertical_bias="1.0"
         tools:layout="@layout/fragment_cursos" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
