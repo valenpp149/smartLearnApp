@@ -15,7 +15,7 @@ import com.example.smartlearnapp.R
 import com.example.smartlearnapp.databinding.FragmentCursosBinding
 
 
-class CursosFragment : Fragment(R.layout.fragment_cursos) {
+class CursosFragment : Fragment() {
     private var _binding: FragmentCursosBinding? = null
     private val binding get() = _binding!!
     private var lista2: MutableList<Cursos> = mutableListOf()
@@ -33,7 +33,7 @@ class CursosFragment : Fragment(R.layout.fragment_cursos) {
         savedInstanceState: Bundle?
     ): View? {
         _binding = FragmentCursosBinding.inflate(inflater)
-        var view: FrameLayout = binding.root
+        var view: ConstraintLayout = binding.root
         return view
     }
 

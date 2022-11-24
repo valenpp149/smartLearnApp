@@ -21,4 +21,6 @@
     <string name="matematicas">Matemáticas Básicas</string>
     <string name="descripcion">Curso básico con temáticas de ecuaciones</string>
     <string name="precio">30.000</string>
+    <string name="agregar">Agregar cursos</string>
+    <string name="cargar">Cargar imagen</string>
 </resources>
