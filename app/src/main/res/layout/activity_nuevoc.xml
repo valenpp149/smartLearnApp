@@ -8,16 +8,17 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="150dp"
-        android:layout_height="144dp"
+        android:layout_width="161dp"
+        android:layout_height="163dp"
         android:layout_marginStart="45dp"
-        android:layout_marginTop="106dp"
         android:layout_marginEnd="238dp"
-        android:layout_marginBottom="497dp"
+        android:layout_marginBottom="428dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.893"
         tools:srcCompat="@tools:sample/avatars" />
 
     <Button
@@ -25,12 +26,78 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="62dp"
-        android:layout_marginTop="17dp"
         android:layout_marginEnd="255dp"
-        android:layout_marginBottom="424dp"
+        android:background="@drawable/boton_redondo"
         android:text="@string/cargar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.424"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.462" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="278dp"
+        android:layout_height="48dp"
+        android:drawableStart="@drawable/ic_baseline_menu_book_24"
+        android:drawablePadding="15dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/nombreCurso"
+        android:textColor="@color/secondary_blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.169"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.555" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="350dp"
+        android:layout_height="83dp"
+        android:drawableStart="@drawable/ic_baseline_question_mark_24"
+        android:drawablePadding="15dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="@string/descripcionn"
+        android:textColor="@color/secondary_blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.36"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.682" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="296dp"
+        android:layout_height="60dp"
+        android:drawableStart="@drawable/ic_baseline_attach_money_24"
+        android:drawablePadding="15dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="@color/secondary_blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.191"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.798"
+        tools:text="@string/valor" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/boton_redondo"
+        android:text="@string/registrar2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.9" />
 </androidx.constraintlayout.widget.ConstraintLayout>

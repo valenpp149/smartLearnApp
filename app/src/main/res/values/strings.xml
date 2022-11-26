@@ -23,4 +23,7 @@
     <string name="precio">30.000</string>
     <string name="agregar">Agregar cursos</string>
     <string name="cargar">Cargar imagen</string>
+    <string name="nombreCurso">Nombre del curso</string>
+    <string name="descripcionn">Descripción</string>
+    <string name="valor">Precio</string>
 </resources>
